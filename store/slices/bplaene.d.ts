@@ -6,8 +6,7 @@ export interface BplaeneState {
 declare const slice: Slice<BplaeneState>;
 export default slice;
 export declare const loadBPlaene: (finishedHandler?: () => void) => (dispatch: any) => Promise<void>;
-export declare function getPlanFeatureByGazObject(gazObjects: any, done?: (result: any) => void): (dispatch: any, getState: any) => void;
-export declare function getPlanFeatureByTitle(title: string, done: (hit: any) => void): (dispatch: any) => void;
+export declare function getPlanFeatureByTitle(_title: string, done: (hit: any) => void): (dispatch: any) => void;
 export declare function getPlanFeatures({ boundingBox, point, done, }: {
     boundingBox?: any;
     point?: any;
