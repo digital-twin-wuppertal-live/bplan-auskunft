@@ -4,7 +4,7 @@ export namespace gazDataConfig {
     export { prefix };
     export { sources };
 }
-declare const crs: "3857";
+declare const crs: "25832";
 declare const prefix: "GazDataForHochwasserkarteByCismet";
 declare const sources: {
     topic: ENDPOINT;
