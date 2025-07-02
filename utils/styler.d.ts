@@ -9,7 +9,7 @@ export declare const getColorFromFeature: (feature: any) => string;
 export declare const getLineColorFromFeature: (feature: any) => string;
 export declare const getColorFromFeatureConsideringSelection: (feature: any) => string;
 export declare const getLineColorFromFeatureConsideringSelection: (feature: any) => string;
-export declare const getShadowColorFromFeatureConsideringSelection: (feature: any) => "#4395FE" | "#000000";
+export declare const getShadowColorFromFeatureConsideringSelection: (feature: any) => "#000000" | "#4395FE";
 export declare const getTooltipStyleFromFeatureConsideringSelection: (feature: any) => {
     color: string;
     textShadow: string;
